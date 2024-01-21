@@ -171,7 +171,7 @@ const changeDarkModel = (e) => {
       @click=";(loading_1 = true), SetToken()"
       :loading="loading_1"
     >
-      确定
+      使用自己的Token（暂不支持）
     </lew-button>
     <lew-button
       type="gray"
@@ -183,7 +183,7 @@ const changeDarkModel = (e) => {
       "
       :loading="loading_4"
     >
-      少废话，先看东西。
+      使用公益Token
     </lew-button>
     <lew-button
       type="primary"
