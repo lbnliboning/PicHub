@@ -69,10 +69,10 @@ const GetRepos = () => {
 
       if (
         !user.value.repoId &&
-        token.value == 'ghp_nHrGvW63OTlLac' + '' + 'FH4WOHto6sYhS7yD1Us6Ta'
+        token.value == 'ghp_qGT2N0GNYl0toZjdvyE' + '' + '2U1gR1JcnTF1Uoygj'
       ) {
-        user.value.repoId = 480610843
-        Save()
+        user.value.repoId = 738404310
+        保存()
       }
     })
 }
@@ -178,7 +178,7 @@ const changeDarkModel = (e) => {
       v-show="repos.length == 0"
       @click="
         ;((loading_4 = true),
-        (token = 'ghp_T9wL5cqtYhLHgshM8en' + '' + 'QsA26TnTqzW2CeT6E')),
+        (token = 'ghp_qGT2N0GNYl0toZjdvyE' + '' + '2U1gR1JcnTF1Uoygj')),
           SetToken()
       "
       :loading="loading_4"
