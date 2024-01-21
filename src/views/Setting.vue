@@ -69,7 +69,7 @@ const GetRepos = () => {
 
       if (
         !user.value.repoId &&
-        token.value == 'ghp_qGT2N0GNYl0toZjdvyE' + '' + '2U1gR1JcnTF1Uoygj'
+        token.value == 'ghp_qGT2N0GNYl0toZ' + '' + 'jdvyE2U1gR1JcnTF1Uoygj'
       ) {
         user.value.repoId = 738404310
         保存()
@@ -171,7 +171,7 @@ const changeDarkModel = (e) => {
       @click=";(loading_1 = true), SetToken()"
       :loading="loading_1"
     >
-      保存
+      确定
     </lew-button>
     <lew-button
       type="gray"
@@ -183,7 +183,7 @@ const changeDarkModel = (e) => {
       "
       :loading="loading_4"
     >
-      少废话,先看东西
+      少废话，先用免费的。
     </lew-button>
     <lew-button
       type="primary"
