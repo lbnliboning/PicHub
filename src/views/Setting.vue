@@ -183,7 +183,7 @@ const changeDarkModel = (e) => {
       "
       :loading="loading_4"
     >
-      使用公益服务
+      少废话,先看东西
     </lew-button>
     <lew-button
       type="primary"
